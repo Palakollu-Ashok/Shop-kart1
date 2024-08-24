@@ -1,0 +1,16 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.openSlider {
+  animation: slideInFromLeft 0.5s ease-in-out;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

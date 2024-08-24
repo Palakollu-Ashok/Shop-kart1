@@ -1,0 +1,14 @@
+/* Default styles */
+.responsive-carousel img {
+  width: 100vw;
+  height: 75vh;
+}
+
+/* Responsive styles for smaller screens */
+
+@media screen and (max-width: 768px) {
+  .responsive-carousel img {
+    width: 100%;
+    height: 40dvh;
+  }
+}
